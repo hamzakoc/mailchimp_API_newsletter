@@ -37,9 +37,9 @@ app.post("/", (req, res) => {
 
 
 
-    const mailChimpApi = "2c4f4d54f90301aa4d3bbc78128c56f8-us18"
-    const xCode = "18"
-    const listID = "d5e5c24d86"
+    const mailChimpApi = "Your API KEY"
+    const xCode = "YOUR X CODE"
+    const listID = "YOUR LIST ID"
     const url = `https://us${xCode}.api.mailchimp.com/3.0/lists/${listID}`
 
 
